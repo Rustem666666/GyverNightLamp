@@ -4,6 +4,7 @@
 Модификация лампы гайвера для ночных фонарей.
 - Упрощённая схема, без кнопки. Управление только через Wifi.
 Основана на прошивке [FieryLedLamp v5.4 132 эффекта](https://community.alexgyver.ru/threads/wifi-lampa-budilnik-obsuzhdenie-proshivki-fieryledlamp-ot-mishanyats.7530/page-88)
+![SCHEME](https://github.com/Rustem666666/GyverNightLamp/blob/main/images/img20.jpg)
 
 ## Сборка
 
@@ -44,14 +45,13 @@
 
 ## Прошивка
 
-- Как написано выше, за основу взята прошивка ["FieryLedLamp v5.4"](https://github.com/MishanyaTS/FieryLedLamp/releases). Ниже все изменения, в основном файл Constants.h.
+- Как написано выше, за основу взята прошивка ["FieryLedLamp v5.4"](https://github.com/MishanyaTS/FieryLedLamp/releases). Ниже все изменения, в основном файл Constants.h\
 ![SCHEME](https://github.com/Rustem666666/GyverNightLamp/blob/main/images/img17.jpg)
 ![SCHEME](https://github.com/Rustem666666/GyverNightLamp/blob/main/images/img18.jpg)
 - И небольшое изменение в файле **runningText.ino** чтобы текст был виден правильно.
 ![SCHEME](https://github.com/Rustem666666/GyverNightLamp/blob/main/images/img19.jpg)
 - Далее инструкция прошивки есть в папке "Instruction LedLamp". Коротко: закинуть библиотеки из архива libraries в папку `C:\Program Files (x86)\Arduino\libraries`, настроить Arduino IDE 1.8.19 согласно инструкции, загрузить прошивку.\
-Все остальные настройки уже при подключении к устройству.
-![SCHEME](https://github.com/Rustem666666/GyverNightLamp/blob/main/images/img20.jpg)
+Все остальные настройки уже при подключении к устройству. Самая важная настройка на вкладке "Настройка оборудования" поставить "Змейка - Угол ЛВ - вверх"
 - Лампа готова, можно завернуть в плафон. В комплекте плафона прозрачные стёкла. Можно либо приклеить белую бумагу с внутренней стороны стекла, либо покрасить тонким слоем белой краски из баллончика.
 ![SCHEME](https://github.com/Rustem666666/GyverNightLamp/blob/main/images/img21.jpg)
 
